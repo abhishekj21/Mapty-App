@@ -32,6 +32,6 @@ if (navigator.geolocation)
         .openPopup();
     },
     function () {
-      alert('Could not get your position');
+      alert('Could not get your current position');
     }
   );
